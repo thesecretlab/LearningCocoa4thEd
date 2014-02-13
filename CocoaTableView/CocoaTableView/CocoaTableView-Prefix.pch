@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'CocoaTableView' target in the 'CocoaTableView' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

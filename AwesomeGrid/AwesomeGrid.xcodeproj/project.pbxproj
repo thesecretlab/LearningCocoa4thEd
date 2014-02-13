@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3310BDE51828A0E700E61EF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3310BDE41828A0E700E61EF8 /* Foundation.framework */; };
+		3310BDE71828A0E700E61EF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3310BDE61828A0E700E61EF8 /* CoreGraphics.framework */; };
+		3310BDE91828A0E700E61EF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3310BDE81828A0E700E61EF8 /* UIKit.framework */; };
+		3310BDEF1828A0E700E61EF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3310BDED1828A0E700E61EF8 /* InfoPlist.strings */; };
+		3310BDF11828A0E700E61EF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3310BDF01828A0E700E61EF8 /* main.m */; };
+		3310BDF51828A0E700E61EF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3310BDF41828A0E700E61EF8 /* AppDelegate.m */; };
+		3310BDF81828A0E700E61EF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3310BDF61828A0E700E61EF8 /* Main.storyboard */; };
+		3310BDFD1828A0E700E61EF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3310BDFC1828A0E700E61EF8 /* Images.xcassets */; };
+		3310BE041828A0E700E61EF8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3310BE031828A0E700E61EF8 /* XCTest.framework */; };
+		3310BE051828A0E700E61EF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3310BDE41828A0E700E61EF8 /* Foundation.framework */; };
+		3310BE061828A0E700E61EF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3310BDE81828A0E700E61EF8 /* UIKit.framework */; };
+		3310BE0E1828A0E700E61EF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3310BE0C1828A0E700E61EF8 /* InfoPlist.strings */; };
+		3310BE101828A0E700E61EF8 /* AwesomeGridTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3310BE0F1828A0E700E61EF8 /* AwesomeGridTests.m */; };
+		3310BE1E1828A18C00E61EF8 /* GridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3310BE1D1828A18C00E61EF8 /* GridViewController.m */; };
+		3310BE211828A3D300E61EF8 /* GridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3310BE201828A3D300E61EF8 /* GridCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3310BE071828A0E700E61EF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3310BDD91828A0E700E61EF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3310BDE01828A0E700E61EF8;
+			remoteInfo = AwesomeGrid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3310BDE11828A0E700E61EF8 /* AwesomeGrid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeGrid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3310BDE41828A0E700E61EF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3310BDE61828A0E700E61EF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3310BDE81828A0E700E61EF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3310BDEC1828A0E700E61EF8 /* AwesomeGrid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AwesomeGrid-Info.plist"; sourceTree = "<group>"; };
+		3310BDEE1828A0E700E61EF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3310BDF01828A0E700E61EF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3310BDF21828A0E700E61EF8 /* AwesomeGrid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AwesomeGrid-Prefix.pch"; sourceTree = "<group>"; };
+		3310BDF31828A0E700E61EF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3310BDF41828A0E700E61EF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3310BDF71828A0E700E61EF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3310BDFC1828A0E700E61EF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3310BE021828A0E700E61EF8 /* AwesomeGridTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeGridTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3310BE031828A0E700E61EF8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3310BE0B1828A0E700E61EF8 /* AwesomeGridTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AwesomeGridTests-Info.plist"; sourceTree = "<group>"; };
+		3310BE0D1828A0E700E61EF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3310BE0F1828A0E700E61EF8 /* AwesomeGridTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeGridTests.m; sourceTree = "<group>"; };
+		3310BE1C1828A18C00E61EF8 /* GridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridViewController.h; sourceTree = "<group>"; };
+		3310BE1D1828A18C00E61EF8 /* GridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridViewController.m; sourceTree = "<group>"; };
+		3310BE1F1828A3D300E61EF8 /* GridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GridCell.h; sourceTree = "<group>"; };
+		3310BE201828A3D300E61EF8 /* GridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GridCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3310BDDE1828A0E700E61EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3310BDE71828A0E700E61EF8 /* CoreGraphics.framework in Frameworks */,
+				3310BDE91828A0E700E61EF8 /* UIKit.framework in Frameworks */,
+				3310BDE51828A0E700E61EF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3310BDFF1828A0E700E61EF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3310BE041828A0E700E61EF8 /* XCTest.framework in Frameworks */,
+				3310BE061828A0E700E61EF8 /* UIKit.framework in Frameworks */,
+				3310BE051828A0E700E61EF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3310BDD81828A0E700E61EF8 = {
+			isa = PBXGroup;
+			children = (
+				3310BDEA1828A0E700E61EF8 /* AwesomeGrid */,
+				3310BE091828A0E700E61EF8 /* AwesomeGridTests */,
+				3310BDE31828A0E700E61EF8 /* Frameworks */,
+				3310BDE21828A0E700E61EF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3310BDE21828A0E700E61EF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3310BDE11828A0E700E61EF8 /* AwesomeGrid.app */,
+				3310BE021828A0E700E61EF8 /* AwesomeGridTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3310BDE31828A0E700E61EF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3310BDE41828A0E700E61EF8 /* Foundation.framework */,
+				3310BDE61828A0E700E61EF8 /* CoreGraphics.framework */,
+				3310BDE81828A0E700E61EF8 /* UIKit.framework */,
+				3310BE031828A0E700E61EF8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3310BDEA1828A0E700E61EF8 /* AwesomeGrid */ = {
+			isa = PBXGroup;
+			children = (
+				3310BE1C1828A18C00E61EF8 /* GridViewController.h */,
+				3310BE1D1828A18C00E61EF8 /* GridViewController.m */,
+				3310BDF31828A0E700E61EF8 /* AppDelegate.h */,
+				3310BDF41828A0E700E61EF8 /* AppDelegate.m */,
+				3310BDF61828A0E700E61EF8 /* Main.storyboard */,
+				3310BE1F1828A3D300E61EF8 /* GridCell.h */,
+				3310BE201828A3D300E61EF8 /* GridCell.m */,
+				3310BDFC1828A0E700E61EF8 /* Images.xcassets */,
+				3310BDEB1828A0E700E61EF8 /* Supporting Files */,
+			);
+			path = AwesomeGrid;
+			sourceTree = "<group>";
+		};
+		3310BDEB1828A0E700E61EF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3310BDEC1828A0E700E61EF8 /* AwesomeGrid-Info.plist */,
+				3310BDED1828A0E700E61EF8 /* InfoPlist.strings */,
+				3310BDF01828A0E700E61EF8 /* main.m */,
+				3310BDF21828A0E700E61EF8 /* AwesomeGrid-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3310BE091828A0E700E61EF8 /* AwesomeGridTests */ = {
+			isa = PBXGroup;
+			children = (
+				3310BE0F1828A0E700E61EF8 /* AwesomeGridTests.m */,
+				3310BE0A1828A0E700E61EF8 /* Supporting Files */,
+			);
+			path = AwesomeGridTests;
+			sourceTree = "<group>";
+		};
+		3310BE0A1828A0E700E61EF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3310BE0B1828A0E700E61EF8 /* AwesomeGridTests-Info.plist */,
+				3310BE0C1828A0E700E61EF8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3310BDE01828A0E700E61EF8 /* AwesomeGrid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3310BE131828A0E700E61EF8 /* Build configuration list for PBXNativeTarget "AwesomeGrid" */;
+			buildPhases = (
+				3310BDDD1828A0E700E61EF8 /* Sources */,
+				3310BDDE1828A0E700E61EF8 /* Frameworks */,
+				3310BDDF1828A0E700E61EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AwesomeGrid;
+			productName = AwesomeGrid;
+			productReference = 3310BDE11828A0E700E61EF8 /* AwesomeGrid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3310BE011828A0E700E61EF8 /* AwesomeGridTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3310BE161828A0E700E61EF8 /* Build configuration list for PBXNativeTarget "AwesomeGridTests" */;
+			buildPhases = (
+				3310BDFE1828A0E700E61EF8 /* Sources */,
+				3310BDFF1828A0E700E61EF8 /* Frameworks */,
+				3310BE001828A0E700E61EF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3310BE081828A0E700E61EF8 /* PBXTargetDependency */,
+			);
+			name = AwesomeGridTests;
+			productName = AwesomeGridTests;
+			productReference = 3310BE021828A0E700E61EF8 /* AwesomeGridTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3310BDD91828A0E700E61EF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Tim Nugent";
+				TargetAttributes = {
+					3310BE011828A0E700E61EF8 = {
+						TestTargetID = 3310BDE01828A0E700E61EF8;
+					};
+				};
+			};
+			buildConfigurationList = 3310BDDC1828A0E700E61EF8 /* Build configuration list for PBXProject "AwesomeGrid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3310BDD81828A0E700E61EF8;
+			productRefGroup = 3310BDE21828A0E700E61EF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3310BDE01828A0E700E61EF8 /* AwesomeGrid */,
+				3310BE011828A0E700E61EF8 /* AwesomeGridTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3310BDDF1828A0E700E61EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3310BDFD1828A0E700E61EF8 /* Images.xcassets in Resources */,
+				3310BDEF1828A0E700E61EF8 /* InfoPlist.strings in Resources */,
+				3310BDF81828A0E700E61EF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3310BE001828A0E700E61EF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3310BE0E1828A0E700E61EF8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3310BDDD1828A0E700E61EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3310BDF51828A0E700E61EF8 /* AppDelegate.m in Sources */,
+				3310BE1E1828A18C00E61EF8 /* GridViewController.m in Sources */,
+				3310BDF11828A0E700E61EF8 /* main.m in Sources */,
+				3310BE211828A3D300E61EF8 /* GridCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3310BDFE1828A0E700E61EF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3310BE101828A0E700E61EF8 /* AwesomeGridTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3310BE081828A0E700E61EF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3310BDE01828A0E700E61EF8 /* AwesomeGrid */;
+			targetProxy = 3310BE071828A0E700E61EF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3310BDED1828A0E700E61EF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3310BDEE1828A0E700E61EF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3310BDF61828A0E700E61EF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3310BDF71828A0E700E61EF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3310BE0C1828A0E700E61EF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3310BE0D1828A0E700E61EF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3310BE111828A0E700E61EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		3310BE121828A0E700E61EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3310BE141828A0E700E61EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwesomeGrid/AwesomeGrid-Prefix.pch";
+				INFOPLIST_FILE = "AwesomeGrid/AwesomeGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3310BE151828A0E700E61EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwesomeGrid/AwesomeGrid-Prefix.pch";
+				INFOPLIST_FILE = "AwesomeGrid/AwesomeGrid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3310BE171828A0E700E61EF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AwesomeGrid.app/AwesomeGrid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwesomeGrid/AwesomeGrid-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AwesomeGridTests/AwesomeGridTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3310BE181828A0E700E61EF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AwesomeGrid.app/AwesomeGrid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwesomeGrid/AwesomeGrid-Prefix.pch";
+				INFOPLIST_FILE = "AwesomeGridTests/AwesomeGridTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3310BDDC1828A0E700E61EF8 /* Build configuration list for PBXProject "AwesomeGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3310BE111828A0E700E61EF8 /* Debug */,
+				3310BE121828A0E700E61EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3310BE131828A0E700E61EF8 /* Build configuration list for PBXNativeTarget "AwesomeGrid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3310BE141828A0E700E61EF8 /* Debug */,
+				3310BE151828A0E700E61EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3310BE161828A0E700E61EF8 /* Build configuration list for PBXNativeTarget "AwesomeGridTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3310BE171828A0E700E61EF8 /* Debug */,
+				3310BE181828A0E700E61EF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3310BDD91828A0E700E61EF8 /* Project object */;
+}

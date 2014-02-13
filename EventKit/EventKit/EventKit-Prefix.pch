@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'EventKit' target in the 'EventKit' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

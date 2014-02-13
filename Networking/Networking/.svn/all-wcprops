@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/!svn/ver/480109/internal/books/9781449318499/current/sample%20code/Networking/Networking
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/!svn/ver/479389/internal/books/9781449318499/current/sample%20code/Networking/Networking/main.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/479389/internal/books/9781449318499/current/sample%20code/Networking/Networking/AppDelegate.h
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/!svn/ver/480109/internal/books/9781449318499/current/sample%20code/Networking/Networking/AppDelegate.m
+END
+Networking-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/479389/internal/books/9781449318499/current/sample%20code/Networking/Networking/Networking-Info.plist
+END
+Networking-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/!svn/ver/479389/internal/books/9781449318499/current/sample%20code/Networking/Networking/Networking-Prefix.pch
+END

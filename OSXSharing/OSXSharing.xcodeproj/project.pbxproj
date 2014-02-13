@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		682CDDD81606DE48000BF23B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682CDDD71606DE48000BF23B /* Cocoa.framework */; };
+		682CDDE21606DE48000BF23B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 682CDDE01606DE48000BF23B /* InfoPlist.strings */; };
+		682CDDE41606DE48000BF23B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 682CDDE31606DE48000BF23B /* main.m */; };
+		682CDDE81606DE48000BF23B /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 682CDDE61606DE48000BF23B /* Credits.rtf */; };
+		682CDDEB1606DE48000BF23B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 682CDDEA1606DE48000BF23B /* AppDelegate.m */; };
+		682CDDEE1606DE48000BF23B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 682CDDEC1606DE48000BF23B /* MainMenu.xib */; };
+		682CDDF61606DE49000BF23B /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682CDDF51606DE49000BF23B /* SenTestingKit.framework */; };
+		682CDDF71606DE49000BF23B /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 682CDDD71606DE48000BF23B /* Cocoa.framework */; };
+		682CDDFF1606DE49000BF23B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 682CDDFD1606DE49000BF23B /* InfoPlist.strings */; };
+		682CDE021606DE49000BF23B /* OSXSharingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 682CDE011606DE49000BF23B /* OSXSharingTests.m */; };
+		682CDE0C1606DE52000BF23B /* Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 682CDE0B1606DE52000BF23B /* Image.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		682CDDF81606DE49000BF23B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 682CDDCA1606DE48000BF23B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 682CDDD21606DE48000BF23B;
+			remoteInfo = OSXSharing;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		682CDDD31606DE48000BF23B /* OSXSharing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSXSharing.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		682CDDD71606DE48000BF23B /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		682CDDDA1606DE48000BF23B /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		682CDDDB1606DE48000BF23B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		682CDDDC1606DE48000BF23B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		682CDDDF1606DE48000BF23B /* OSXSharing-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXSharing-Info.plist"; sourceTree = "<group>"; };
+		682CDDE11606DE48000BF23B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		682CDDE31606DE48000BF23B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		682CDDE51606DE48000BF23B /* OSXSharing-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXSharing-Prefix.pch"; sourceTree = "<group>"; };
+		682CDDE71606DE48000BF23B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		682CDDE91606DE48000BF23B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		682CDDEA1606DE48000BF23B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		682CDDED1606DE48000BF23B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		682CDDF41606DE49000BF23B /* OSXSharingTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSXSharingTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		682CDDF51606DE49000BF23B /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		682CDDFC1606DE49000BF23B /* OSXSharingTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXSharingTests-Info.plist"; sourceTree = "<group>"; };
+		682CDDFE1606DE49000BF23B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		682CDE001606DE49000BF23B /* OSXSharingTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSXSharingTests.h; sourceTree = "<group>"; };
+		682CDE011606DE49000BF23B /* OSXSharingTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXSharingTests.m; sourceTree = "<group>"; };
+		682CDE0B1606DE52000BF23B /* Image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Image.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		682CDDD01606DE48000BF23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682CDDD81606DE48000BF23B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682CDDF01606DE49000BF23B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682CDDF61606DE49000BF23B /* SenTestingKit.framework in Frameworks */,
+				682CDDF71606DE49000BF23B /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		682CDDC81606DE48000BF23B = {
+			isa = PBXGroup;
+			children = (
+				682CDE0B1606DE52000BF23B /* Image.png */,
+				682CDDDD1606DE48000BF23B /* OSXSharing */,
+				682CDDFA1606DE49000BF23B /* OSXSharingTests */,
+				682CDDD61606DE48000BF23B /* Frameworks */,
+				682CDDD41606DE48000BF23B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		682CDDD41606DE48000BF23B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				682CDDD31606DE48000BF23B /* OSXSharing.app */,
+				682CDDF41606DE49000BF23B /* OSXSharingTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		682CDDD61606DE48000BF23B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				682CDDD71606DE48000BF23B /* Cocoa.framework */,
+				682CDDF51606DE49000BF23B /* SenTestingKit.framework */,
+				682CDDD91606DE48000BF23B /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		682CDDD91606DE48000BF23B /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				682CDDDA1606DE48000BF23B /* AppKit.framework */,
+				682CDDDB1606DE48000BF23B /* CoreData.framework */,
+				682CDDDC1606DE48000BF23B /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		682CDDDD1606DE48000BF23B /* OSXSharing */ = {
+			isa = PBXGroup;
+			children = (
+				682CDDE91606DE48000BF23B /* AppDelegate.h */,
+				682CDDEA1606DE48000BF23B /* AppDelegate.m */,
+				682CDDEC1606DE48000BF23B /* MainMenu.xib */,
+				682CDDDE1606DE48000BF23B /* Supporting Files */,
+			);
+			path = OSXSharing;
+			sourceTree = "<group>";
+		};
+		682CDDDE1606DE48000BF23B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				682CDDDF1606DE48000BF23B /* OSXSharing-Info.plist */,
+				682CDDE01606DE48000BF23B /* InfoPlist.strings */,
+				682CDDE31606DE48000BF23B /* main.m */,
+				682CDDE51606DE48000BF23B /* OSXSharing-Prefix.pch */,
+				682CDDE61606DE48000BF23B /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		682CDDFA1606DE49000BF23B /* OSXSharingTests */ = {
+			isa = PBXGroup;
+			children = (
+				682CDE001606DE49000BF23B /* OSXSharingTests.h */,
+				682CDE011606DE49000BF23B /* OSXSharingTests.m */,
+				682CDDFB1606DE49000BF23B /* Supporting Files */,
+			);
+			path = OSXSharingTests;
+			sourceTree = "<group>";
+		};
+		682CDDFB1606DE49000BF23B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				682CDDFC1606DE49000BF23B /* OSXSharingTests-Info.plist */,
+				682CDDFD1606DE49000BF23B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		682CDDD21606DE48000BF23B /* OSXSharing */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682CDE051606DE49000BF23B /* Build configuration list for PBXNativeTarget "OSXSharing" */;
+			buildPhases = (
+				682CDDCF1606DE48000BF23B /* Sources */,
+				682CDDD01606DE48000BF23B /* Frameworks */,
+				682CDDD11606DE48000BF23B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSXSharing;
+			productName = OSXSharing;
+			productReference = 682CDDD31606DE48000BF23B /* OSXSharing.app */;
+			productType = "com.apple.product-type.application";
+		};
+		682CDDF31606DE49000BF23B /* OSXSharingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 682CDE081606DE49000BF23B /* Build configuration list for PBXNativeTarget "OSXSharingTests" */;
+			buildPhases = (
+				682CDDEF1606DE49000BF23B /* Sources */,
+				682CDDF01606DE49000BF23B /* Frameworks */,
+				682CDDF11606DE49000BF23B /* Resources */,
+				682CDDF21606DE49000BF23B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				682CDDF91606DE49000BF23B /* PBXTargetDependency */,
+			);
+			name = OSXSharingTests;
+			productName = OSXSharingTests;
+			productReference = 682CDDF41606DE49000BF23B /* OSXSharingTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		682CDDCA1606DE48000BF23B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Secret Lab";
+			};
+			buildConfigurationList = 682CDDCD1606DE48000BF23B /* Build configuration list for PBXProject "OSXSharing" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 682CDDC81606DE48000BF23B;
+			productRefGroup = 682CDDD41606DE48000BF23B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				682CDDD21606DE48000BF23B /* OSXSharing */,
+				682CDDF31606DE49000BF23B /* OSXSharingTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		682CDDD11606DE48000BF23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682CDDE21606DE48000BF23B /* InfoPlist.strings in Resources */,
+				682CDDE81606DE48000BF23B /* Credits.rtf in Resources */,
+				682CDDEE1606DE48000BF23B /* MainMenu.xib in Resources */,
+				682CDE0C1606DE52000BF23B /* Image.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682CDDF11606DE49000BF23B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682CDDFF1606DE49000BF23B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		682CDDF21606DE49000BF23B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		682CDDCF1606DE48000BF23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682CDDE41606DE48000BF23B /* main.m in Sources */,
+				682CDDEB1606DE48000BF23B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		682CDDEF1606DE49000BF23B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				682CDE021606DE49000BF23B /* OSXSharingTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		682CDDF91606DE49000BF23B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 682CDDD21606DE48000BF23B /* OSXSharing */;
+			targetProxy = 682CDDF81606DE49000BF23B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		682CDDE01606DE48000BF23B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				682CDDE11606DE48000BF23B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		682CDDE61606DE48000BF23B /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				682CDDE71606DE48000BF23B /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		682CDDEC1606DE48000BF23B /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				682CDDED1606DE48000BF23B /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		682CDDFD1606DE49000BF23B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				682CDDFE1606DE49000BF23B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		682CDE031606DE49000BF23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		682CDE041606DE49000BF23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		682CDE061606DE49000BF23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXSharing/OSXSharing-Prefix.pch";
+				INFOPLIST_FILE = "OSXSharing/OSXSharing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		682CDE071606DE49000BF23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXSharing/OSXSharing-Prefix.pch";
+				INFOPLIST_FILE = "OSXSharing/OSXSharing-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		682CDE091606DE49000BF23B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSXSharing.app/Contents/MacOS/OSXSharing";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXSharing/OSXSharing-Prefix.pch";
+				INFOPLIST_FILE = "OSXSharingTests/OSXSharingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		682CDE0A1606DE49000BF23B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSXSharing.app/Contents/MacOS/OSXSharing";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXSharing/OSXSharing-Prefix.pch";
+				INFOPLIST_FILE = "OSXSharingTests/OSXSharingTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		682CDDCD1606DE48000BF23B /* Build configuration list for PBXProject "OSXSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682CDE031606DE49000BF23B /* Debug */,
+				682CDE041606DE49000BF23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682CDE051606DE49000BF23B /* Build configuration list for PBXNativeTarget "OSXSharing" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682CDE061606DE49000BF23B /* Debug */,
+				682CDE071606DE49000BF23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		682CDE081606DE49000BF23B /* Build configuration list for PBXNativeTarget "OSXSharingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				682CDE091606DE49000BF23B /* Debug */,
+				682CDE0A1606DE49000BF23B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 682CDDCA1606DE48000BF23B /* Project object */;
+}

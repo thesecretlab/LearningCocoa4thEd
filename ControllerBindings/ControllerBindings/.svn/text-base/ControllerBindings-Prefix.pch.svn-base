@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'ControllerBindings' target in the 'ControllerBindings' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif

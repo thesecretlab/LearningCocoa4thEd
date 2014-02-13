@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/!svn/ver/505629/internal/books/9781449318499/current/sample%20code/iCloudMac/iCloudIOS
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/!svn/ver/505629/internal/books/9781449318499/current/sample%20code/iCloudMac/iCloudIOS/main.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/505629/internal/books/9781449318499/current/sample%20code/iCloudMac/iCloudIOS/AppDelegate.h
+END
+ViewController.h
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/505629/internal/books/9781449318499/current/sample%20code/iCloudMac/iCloudIOS/ViewController.h
+END
+iCloudIOS.entitlements
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/!svn/ver/505629/internal/books/9781449318499/current/sample%20code/iCloudMac/iCloudIOS/iCloudIOS.entitlements
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/!svn/ver/505629/internal/books/9781449318499/current/sample%20code/iCloudMac/iCloudIOS/AppDelegate.m
+END
+ViewController.m
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/!svn/ver/505629/internal/books/9781449318499/current/sample%20code/iCloudMac/iCloudIOS/ViewController.m
+END
+iCloudIOS-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/505629/internal/books/9781449318499/current/sample%20code/iCloudMac/iCloudIOS/iCloudIOS-Info.plist
+END
+iCloudIOS-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/!svn/ver/505629/internal/books/9781449318499/current/sample%20code/iCloudMac/iCloudIOS/iCloudIOS-Prefix.pch
+END

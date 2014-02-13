@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		68B867F6154B8856003E1AF7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68B867F5154B8856003E1AF7 /* Cocoa.framework */; };
+		68B86800154B8856003E1AF7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 68B867FE154B8856003E1AF7 /* InfoPlist.strings */; };
+		68B86802154B8856003E1AF7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B86801154B8856003E1AF7 /* main.m */; };
+		68B86806154B8856003E1AF7 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 68B86804154B8856003E1AF7 /* Credits.rtf */; };
+		68B86809154B8856003E1AF7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 68B86808154B8856003E1AF7 /* AppDelegate.m */; };
+		68B8680C154B8856003E1AF7 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 68B8680A154B8856003E1AF7 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		68B867F1154B8856003E1AF7 /* SimpleBindings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleBindings.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		68B867F5154B8856003E1AF7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		68B867F8154B8856003E1AF7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		68B867F9154B8856003E1AF7 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		68B867FA154B8856003E1AF7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		68B867FD154B8856003E1AF7 /* SimpleBindings-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SimpleBindings-Info.plist"; sourceTree = "<group>"; };
+		68B867FF154B8856003E1AF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		68B86801154B8856003E1AF7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		68B86803154B8856003E1AF7 /* SimpleBindings-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SimpleBindings-Prefix.pch"; sourceTree = "<group>"; };
+		68B86805154B8856003E1AF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		68B86807154B8856003E1AF7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		68B86808154B8856003E1AF7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		68B8680B154B8856003E1AF7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		68B867EE154B8856003E1AF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B867F6154B8856003E1AF7 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		68B867E6154B8856003E1AF7 = {
+			isa = PBXGroup;
+			children = (
+				68B867FB154B8856003E1AF7 /* SimpleBindings */,
+				68B867F4154B8856003E1AF7 /* Frameworks */,
+				68B867F2154B8856003E1AF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		68B867F2154B8856003E1AF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				68B867F1154B8856003E1AF7 /* SimpleBindings.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		68B867F4154B8856003E1AF7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68B867F5154B8856003E1AF7 /* Cocoa.framework */,
+				68B867F7154B8856003E1AF7 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		68B867F7154B8856003E1AF7 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				68B867F8154B8856003E1AF7 /* AppKit.framework */,
+				68B867F9154B8856003E1AF7 /* CoreData.framework */,
+				68B867FA154B8856003E1AF7 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		68B867FB154B8856003E1AF7 /* SimpleBindings */ = {
+			isa = PBXGroup;
+			children = (
+				68B86807154B8856003E1AF7 /* AppDelegate.h */,
+				68B86808154B8856003E1AF7 /* AppDelegate.m */,
+				68B8680A154B8856003E1AF7 /* MainMenu.xib */,
+				68B867FC154B8856003E1AF7 /* Supporting Files */,
+			);
+			path = SimpleBindings;
+			sourceTree = "<group>";
+		};
+		68B867FC154B8856003E1AF7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				68B867FD154B8856003E1AF7 /* SimpleBindings-Info.plist */,
+				68B867FE154B8856003E1AF7 /* InfoPlist.strings */,
+				68B86801154B8856003E1AF7 /* main.m */,
+				68B86803154B8856003E1AF7 /* SimpleBindings-Prefix.pch */,
+				68B86804154B8856003E1AF7 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		68B867F0154B8856003E1AF7 /* SimpleBindings */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 68B8680F154B8856003E1AF7 /* Build configuration list for PBXNativeTarget "SimpleBindings" */;
+			buildPhases = (
+				68B867ED154B8856003E1AF7 /* Sources */,
+				68B867EE154B8856003E1AF7 /* Frameworks */,
+				68B867EF154B8856003E1AF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleBindings;
+			productName = SimpleBindings;
+			productReference = 68B867F1154B8856003E1AF7 /* SimpleBindings.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		68B867E8154B8856003E1AF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Secret Lab";
+			};
+			buildConfigurationList = 68B867EB154B8856003E1AF7 /* Build configuration list for PBXProject "SimpleBindings" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 68B867E6154B8856003E1AF7;
+			productRefGroup = 68B867F2154B8856003E1AF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				68B867F0154B8856003E1AF7 /* SimpleBindings */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		68B867EF154B8856003E1AF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B86800154B8856003E1AF7 /* InfoPlist.strings in Resources */,
+				68B86806154B8856003E1AF7 /* Credits.rtf in Resources */,
+				68B8680C154B8856003E1AF7 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		68B867ED154B8856003E1AF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68B86802154B8856003E1AF7 /* main.m in Sources */,
+				68B86809154B8856003E1AF7 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		68B867FE154B8856003E1AF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B867FF154B8856003E1AF7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		68B86804154B8856003E1AF7 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B86805154B8856003E1AF7 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		68B8680A154B8856003E1AF7 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				68B8680B154B8856003E1AF7 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		68B8680D154B8856003E1AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		68B8680E154B8856003E1AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		68B86810154B8856003E1AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleBindings/SimpleBindings-Prefix.pch";
+				INFOPLIST_FILE = "SimpleBindings/SimpleBindings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		68B86811154B8856003E1AF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SimpleBindings/SimpleBindings-Prefix.pch";
+				INFOPLIST_FILE = "SimpleBindings/SimpleBindings-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		68B867EB154B8856003E1AF7 /* Build configuration list for PBXProject "SimpleBindings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B8680D154B8856003E1AF7 /* Debug */,
+				68B8680E154B8856003E1AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		68B8680F154B8856003E1AF7 /* Build configuration list for PBXNativeTarget "SimpleBindings" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				68B86810154B8856003E1AF7 /* Debug */,
+				68B86811154B8856003E1AF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 68B867E8154B8856003E1AF7 /* Project object */;
+}

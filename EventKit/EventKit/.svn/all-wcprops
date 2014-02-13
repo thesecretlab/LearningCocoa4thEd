@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/!svn/ver/531863/internal/books/9781449318499/current/sample%20code/EventKit/EventKit
+END
+main.m
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/!svn/ver/531863/internal/books/9781449318499/current/sample%20code/EventKit/EventKit/main.m
+END
+AppDelegate.h
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/531863/internal/books/9781449318499/current/sample%20code/EventKit/EventKit/AppDelegate.h
+END
+AppDelegate.m
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/!svn/ver/531863/internal/books/9781449318499/current/sample%20code/EventKit/EventKit/AppDelegate.m
+END
+EventKit-Info.plist
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/531863/internal/books/9781449318499/current/sample%20code/EventKit/EventKit/EventKit-Info.plist
+END
+EventKit-Prefix.pch
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/!svn/ver/531863/internal/books/9781449318499/current/sample%20code/EventKit/EventKit/EventKit-Prefix.pch
+END
