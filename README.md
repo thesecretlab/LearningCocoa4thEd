@@ -1,6 +1,6 @@
 # Learning Cocoa with Objective-C Fourth Edition
 
-Code from our book, Learning Cocoa with Objective-C Fourth Edition.
+Code from [Secret Lab](http://www.secretlab.com.au)'s book, [Learning Cocoa with Objective-C Fourth Edition](http://shop.oreilly.com/product/0636920033387.do).
 
 You can email us at [lab@secretlab.com.au](mailto:lab@secretlab.com.au)
 
